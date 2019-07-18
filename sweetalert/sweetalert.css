@@ -1,0 +1,14 @@
+.swal-text,
+.swal-footer {
+  text-align: center;
+}
+.swal-button {
+  background-color:#f58e1a;
+}
+.swal-button:hover {
+  transition: 0.3s;
+  background-color:#f4623a !important;
+}
+.swal-overlay {
+  background-color: #343a40;
+}

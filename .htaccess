@@ -1,0 +1,9 @@
+Options -Indexes
+Options -Multiviews
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#error
+RewriteRule ^home?$ dist/index.php
